@@ -1,5 +1,7 @@
 {
   "rewrites": [
+    { "source": "/databas/:path*", "destination": "https://jackdash.ps.fhgdps.com/:path*" },
+    { "source": "/database/:path*", "destination": "https://jackdash.ps.fhgdps.com/:path*" },
     { "source": "/:path*", "destination": "https://jackdash.ps.fhgdps.com/:path*" }
   ]
 }
